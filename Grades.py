@@ -1,8 +1,3 @@
-s_name = input("Please enter Student name: ")
-
-homework = float(input("Please enter Homework mark: "))
-assessment = float(input("Please enter Assessment mark: "))
-final_exam = float(input("Please enter Final Exam mark: "))
 
 def ict_fun(homework,assessment,final_exam):
     if homework > 25.0:
@@ -14,5 +9,3 @@ def ict_fun(homework,assessment,final_exam):
     else:
         ict = (((homework/25) + (assessment/50) +(final_exam/100))/3)*100
     return ict
-
-print(s_name, ict_fun(homework,assessment,final_exam))
