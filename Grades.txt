@@ -1,0 +1,1 @@
+s_name = input("Please enter student name: ")
